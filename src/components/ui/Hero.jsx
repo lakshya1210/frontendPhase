@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -11,9 +12,9 @@ function Hero() {
           Effortlessly Craft a Professional Resume with Our AI-Powered Builder
         </p>
         <div className="flex justify-center space-x-4">
-          <button className="bg-blue-600 text-white px-6 py-2.5 rounded-full hover:bg-blue-700 transition font-semibold">
+          <Link to="/sign-up" className="bg-blue-600 text-white px-6 py-2.5 rounded-full hover:bg-blue-700 transition font-semibold">
             Get Started
-          </button>
+          </Link>
           <button className="bg-gray-200 text-gray-800 px-6 py-2.5 rounded-full hover:bg-gray-300 transition font-semibold">
             Learn more
           </button>
