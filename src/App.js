@@ -7,7 +7,7 @@ import Footer from './components/ui/Footer.jsx';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-blue-50">
+    <div className="min-h-screen flex flex-col bg-blue-50 max-w-screen-2xl mx-auto">
       <Navbar />
       <main className="flex-grow pt-16">
         <Hero />
