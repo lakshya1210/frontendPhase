@@ -14,6 +14,7 @@ function SignUp() {
           signInUrl="/sign-in" 
           routing="path" 
           path="/sign-up"
+          redirectUrl="/sign-up/verify-email-address"
         />
       </div>
     </div>
