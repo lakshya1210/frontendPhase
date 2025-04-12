@@ -23,7 +23,8 @@ function App() {
                   <Hero />
                   <HowItWorks />
                 </>
-              } />
+              } 
+              />
               <Route path="/sign-in/*" element={<SignIn />} />
               <Route path="/sign-up/*" element={<SignUp />} />
               <Route path="/verify/*" element={<VerifyEmail />} />
